@@ -1,5 +1,4 @@
 # NumericalMethods
-![](https://img.shields.io/github/stars/SuperSLD/NumericalMethods) ![](https://img.shields.io/github/forks/SuperSLD/NumericalMethods)
 
 Программы по курсу "численные методы" написанные на Python.
 Список программ:
