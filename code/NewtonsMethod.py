@@ -15,4 +15,4 @@ df  = lambda x: E**x - 2
 x0 = 2.4
 e = 0.000001
 
-print(newton(x0, e, f, df))
+print("решение: " + str(newton(x0, e, f, df)))
