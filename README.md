@@ -175,7 +175,7 @@ y = [
 на интервале [8,9] -> [3.9438, -2.318211382113822, 1.1757551721858688]
 на интервале [9,10] -> [2.8712, 0.574146341463416, -1.7266177539824181]
 ```
-Графиики посроенные с помощью иодуля matplotlib. Первый график из точек по заданию, а второй с двумя добавленными:
+Графиики, построенные с помощью иодуля matplotlib. Первый график из точек по заданию, а второй с двумя добавленными:
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/spline.png?raw=true)
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/spline2.png?raw=true)
 ## Differentioation.py Дифференциирование занятие 8.
