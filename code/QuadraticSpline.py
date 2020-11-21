@@ -1,6 +1,3 @@
-import numpy as np
-from numpy import linalg as LA
-import copy
 import matplotlib.pyplot as plt
 
 def create_spline(X, Y):
