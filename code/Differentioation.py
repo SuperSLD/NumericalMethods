@@ -59,6 +59,7 @@ line_diff_4 = differentiation4(line, h)
 
 
 # Вывод на экран
+plt.grid(linestyle="--")
 plt.plot(
     line_diff_2[0], 
     line_diff_2[1])

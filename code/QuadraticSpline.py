@@ -49,6 +49,7 @@ def to_normal_color(R,G,B):
     return (c*R, c*G, c*B)
 
 # Вывод на экран
+plt.grid(linestyle="--")
 plt.plot(x, y, color=to_normal_color(144, 0, 255))
 plt.plot(x_spline, y_spline, color=to_normal_color(255, 102, 232))
 plt.show()
