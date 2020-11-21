@@ -153,7 +153,7 @@ e = 0.00001
 ```python
 Решение при X = [3, 1] --> [3.1067148534615936, 1.4457731437829973]
 ```
-## QuadraticSpline.py Квадратичный сплайн занятие 6.
+## QuadraticSpline.py Квадратичный сплайн занятие 6 - 7.
 Входные данные:
 ```python
 x = [-1.23, 0, 1.23, 2.46, 3.69, 4.92, 6.15, 7.38 ,8.61, 9.84, 11.07]
@@ -178,3 +178,15 @@ y = [
 Графиики посроенные с помощью иодуля matplotlib. Первый график из точек по заданию, а второй с двумя добавленными:
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/spline.png?raw=true)
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/spline2.png?raw=true)
+## Differentioation.py Дифференциирование занятие 8.
+Входные данные:
+```python
+f = lambda x: np.sqrt(x**2+3)/(np.sin(x/3)+1) + np.log((x**2 + 1)/(3*x - 1))
+lim = [1, 5]
+h = 0.2
+COUNT = 1000
+```
+График производных по двум узлам, трем и четырем при 10 точках рассчета:
+![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation.png?raw=true)
+При увеличении количества точек рассчета графики совпадают:
+![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation1000.png?raw=true)
