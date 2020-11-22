@@ -188,5 +188,6 @@ COUNT = 1000
 ```
 График производных по двум узлам, трем и четырем при 10 точках рассчета:
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation.png?raw=true)
+
 При увеличении количества точек рассчета графики совпадают:
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation1000.png?raw=true)
