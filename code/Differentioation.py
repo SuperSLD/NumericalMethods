@@ -44,7 +44,7 @@ def differentiation4(line, h):
 f = lambda x: np.sqrt(x**2+3)/(np.sin(x/3)+1) + np.log((x**2 + 1)/(3*x - 1))
 lim = [1, 5]
 h = 0.2
-COUNT = 1000
+COUNT = 10
 
 # Перевод RGB цвета от 255..0 до 1..0
 def to_normal_color(R,G,B):
@@ -59,14 +59,24 @@ line_diff_4 = differentiation4(line, h)
 
 
 # Вывод на экран
-plt.grid(linestyle="--")
-plt.plot(
+fig, (ax1, ax2) = plt.subplots(
+    nrows=1, ncols=2,
+    figsize=(8, 4)
+)
+
+ax1.grid(linestyle="--")
+ax1.plot(line[0], line[1])
+ax1.set_title("Функция")
+
+ax2.set_title("Первая производная")
+ax2.grid(linestyle="--")
+ax2.plot(
     line_diff_2[0], 
     line_diff_2[1])
-plt.plot(
+ax2.plot(
     line_diff_3[0], 
     line_diff_3[1])
-plt.plot(
+ax2.plot(
     line_diff_4[0], 
     line_diff_4[1])
 plt.show()
