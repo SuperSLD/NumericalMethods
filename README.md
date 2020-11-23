@@ -191,7 +191,7 @@ COUNT = 1000
 При увеличении количества точек рассчета графики совпадают:
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation1000.png?raw=true)
 
-## Differentioation.py Интегрирование занятие 9.
+## Integration.py Интегрирование занятие 9.
 Входные данные:
 ```python
 # Исходная функция и пределы интегрирования
