@@ -204,4 +204,6 @@ COUNT = 1000
 Значение подученное методом Симпсона -> 0.5122281659137035
 ```
 График исходной функции функции:
+
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/integration.png?raw=true)
+
