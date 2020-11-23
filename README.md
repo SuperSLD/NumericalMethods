@@ -188,6 +188,20 @@ COUNT = 1000
 ```
 График производных по двум узлам, трем и четырем при 10 точках рассчета:
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation.png?raw=true)
-
 При увеличении количества точек рассчета графики совпадают:
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation1000.png?raw=true)
+
+## Differentioation.py Интегрирование занятие 9.
+Входные данные:
+```python
+# Исходная функция и пределы интегрирования
+f = lambda x:(x*np.cos(x) + np.sin(x))/(x+1)**2
+lim = [0, 2]
+COUNT = 1000
+```
+Вывод программы:
+```python
+Значение подученное методом Симпсона -> 0.5122281659137035
+```
+График исходной функции функции:
+![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/integration.png?raw=true)
