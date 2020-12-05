@@ -19,7 +19,6 @@ def optimisation_newton(f, lim, h, e):
 
 f = lambda x: (2*(x**2)*np.cos(x/2)+(x**2)*np.sin(x/4)+3*(x+1))/(x+4)**2
 lim1 = [2, 4]
-lim2 = [5, 7]
 h = 0.15
 e = 0.00001
 
