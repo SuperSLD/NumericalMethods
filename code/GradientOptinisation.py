@@ -33,7 +33,6 @@ def gradient_max_speed_optimisation(f, grad, position, e, h):
     y_array = []
     while grad_abs(grad, position) > e:
         l = optimal_lambda(f, grad, position, h)
-        print(position)
         next_x = position[0] - l*grad[0](position)
         next_y = position[1] - l*grad[1](position)
         x_array.append(position[0])
