@@ -176,7 +176,9 @@ y = [
 на интервале [9,10] -> [2.8712, 0.574146341463416, -1.7266177539824181]
 ```
 Графиики, построенные с помощью иодуля matplotlib. Первый график из точек по заданию, а второй с двумя добавленными:
+
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/spline.png?raw=true)
+
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/spline2.png?raw=true)
 ## Differentioation.py Дифференциирование занятие 8.
 Входные данные:
@@ -187,8 +189,11 @@ h = 0.2
 COUNT = 1000
 ```
 График производных по двум узлам, трем и четырем при 10 точках рассчета:
+
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation.png?raw=true)
+
 При увеличении количества точек рассчета графики совпадают:
+
 ![](https://github.com/SuperSLD/NumericalMethods/blob/main/images/differentiation1000.png?raw=true)
 
 ## Integration.py Интегрирование занятие 9.
